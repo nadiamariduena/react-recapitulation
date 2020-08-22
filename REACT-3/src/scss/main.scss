@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: lemonchiffon;
+
+  header {
+    width: 100vw;
+    min-height: 5vh;
+    padding: 20px 0;
+    background-color: #fff;
+    position: fixed;
+    border-bottom: 2px solid #000;
+    //
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    #logo {
+      color: #000000;
+      letter-spacing: 25px;
+    }
+    //
+
+    nav {
+      ul {
+        list-style: none;
+        li {
+          color: #111111;
+          display: inline;
+          margin: 0 20px 0 0;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+      }
+    }
+    //
+  }
+
+  // ---
+  //              End header
+  // ---
+
+  #page {
+    display: flex;
+    flex-wrap: wrap;
+
+    #TopSection {
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 2px solid #000;
+
+      h1 {
+        margin: 20px 0 40px 0;
+      }
+
+      p {
+        width: 60%;
+        line-height: 26px;
+        font-size: 1em;
+      }
+    }
+
+    // Props Container example
+    //
+    #propsContainerOne {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(255, 255, 255);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 3em;
+      text-transform: uppercase;
+      border-bottom: 2px solid #000;
+    }
+    //
+  }
+}
