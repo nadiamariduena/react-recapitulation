@@ -12,8 +12,8 @@ const AppParent = () => {
       <div id="page">
         <PageContent />
         {/*      <AppChild     /> */}
-        <AppChildOne name="Meli" planet="moon" />
-        <AppChildTwo name="Sarah" planet="saturn" />
+        <AppChildOne name="props 1" age="5004" />
+        <AppChildTwo name="props 2" age="3025" />
       </div>
     </React.Fragment>
   );

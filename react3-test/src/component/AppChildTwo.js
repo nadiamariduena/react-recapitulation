@@ -5,7 +5,7 @@ const AppChildTwo = (props) => {
     <React.Fragment>
       <div id="propsContainerTwo">
         <h5>
-          Hi My name is {props.name}, and i am from planet {props.planet}
+          Hi My name is {props.name}, and i am from planet {props.age}
         </h5>
       </div>
     </React.Fragment>
