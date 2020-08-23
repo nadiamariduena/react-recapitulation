@@ -5,8 +5,8 @@ import ChildTwo from "./ChildTwo";
 const AppParent = () => {
   return (
     <React.Fragment>
-      <ChildOne name="Melissa" age="4500" />
-      <ChildTwo city="Berlin" food="ceviche" />
+      <ChildOne name="Ludovico" age="4500" />
+      <ChildTwo city="Berlin" food="patacones" />
     </React.Fragment>
   );
 };

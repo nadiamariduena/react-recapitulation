@@ -4,17 +4,11 @@ export default class ChildOne extends Component {
   render() {
     return (
       <p>
-        Hello My name is {this.props.name} 
+        Hello My name is {this.props.name}
         and i am {this.props.age} olddd
       </p>
     );
   }
-
-
-
-
-
-  
 }
 
 /* 
@@ -51,4 +45,37 @@ export default ChildOne;
 
 
 
+ */
+
+/*2
+
+
+ import React, { Component } from "react";
+
+export default class ChildOne extends Component {
+  render() {
+    return (
+      <p>
+        Hello My name is {this.props.name} 
+        and i am {this.props.age} olddd
+      </p>
+    );
+  }
+
+
+
+
+
+  
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  */
