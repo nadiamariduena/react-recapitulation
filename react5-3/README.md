@@ -2,4 +2,10 @@
 
 ### LIST exercise 3 prt (in progress)
 
-<p> learning the differences between a Stateless CLASS component and a statefull class component  </p>
+<ul>
+
+<li>learning the differences between a Stateless CLASS component and a statefull class component</li>
+
+<li>Remove items</li>
+
+</ul>

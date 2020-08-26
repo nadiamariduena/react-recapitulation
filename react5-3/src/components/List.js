@@ -44,7 +44,7 @@ export default class List extends React.Component {
     //------------------------------------
     //
     this.remove = (itemToRemove) => {
-      const newArray = this.state.list.filter((item) => item != itemToRemove);
+      const newArray = this.state.list.filter((item) => item !== itemToRemove);
 
       // the cerise sur le gateau
       this.setState({

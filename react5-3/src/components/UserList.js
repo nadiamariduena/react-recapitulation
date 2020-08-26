@@ -10,7 +10,7 @@ const UserList = (props) => {
           props.del(item);
         }}
       >
-        X
+        {<ion-icon name="ice-cream-outline"></ion-icon>}{" "}
       </i>
     </li>
   ));
