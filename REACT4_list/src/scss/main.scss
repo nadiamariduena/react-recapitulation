@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(246, 219, 169);
+  position: relative;
+  // ---------
+  // --------
+  // nav bar
+  // --------
+  header {
+    width: 100vw;
+    min-height: 5vh;
+    padding: 10px 0;
+    background-color: darkorchid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    .logo {
+      font-family: monospace;
+    }
+    nav {
+      ul {
+        list-style: none;
+        li {
+          display: inline;
+          margin: 0 20px 0 0;
+          font-family: monospace;
+        }
+      }
+    }
+  }
+  // ---------
+  // --------
+  .top {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/minhyunwoo_metalmagazine.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 5em;
+      color: rgb(60, 0, 226);
+      //   color: rgb(253, 0, 76);
+      margin: 0 0 0px 0;
+      letter-spacing: -5px;
+    }
+
+    .forma {
+      width: 50vw;
+      min-height: 20vh;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+
+      input {
+        padding: 11px 40px;
+        transition: padding-right 0.3s ease;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        color: rgb(0, 0, 0);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+
+        li {
+          color: chartreuse;
+        }
+      }
+      ::placeholder {
+        color: rgba(255, 0, 76, 0.3);
+      }
+
+      //   -button
+      button {
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        background-color: rgb(253, 228, 0);
+        padding: 11px 40px;
+        color: rgb(60, 0, 226);
+        margin: 0 2px;
+        transition: 0.5s ease;
+        &:hover {
+          background-color: rgb(33, 0, 219);
+          color: black;
+        }
+      }
+    }
+    //
+    .video1 {
+      width: 20vw;
+      height: 20vh;
+      background-color: darkseagreen;
+      position: absolute;
+      left: 20%;
+      bottom: 10%;
+    }
+  }
+}

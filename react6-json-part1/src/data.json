@@ -1,0 +1,18 @@
+[
+  {
+    "id": "0",
+    "name": "Melitta",
+    "address": "Berlin",
+    "img": "img/Mekas-Winks-Better_metalmagazine-8.jpg",
+    "tag": "whatever",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatum!"
+  },
+  {
+    "id": "1",
+    "name": "Mel",
+    "address": "Paris",
+    "img": "img/LuisaPagani_metalmagazine-8.jpg",
+    "tag": "yep",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatum!"
+  }
+]

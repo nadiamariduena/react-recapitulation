@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: goldenrod;
+
+  #top {
+    width: 100vw;
+    height: 100vh;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .imgBox {
+      width: 50%;
+      margin: 10px;
+      img {
+        width: 100%;
+        min-height: auto;
+        object-fit: cover;
+      }
+    }
+    p {
+      margin: 20px;
+    }
+  }
+}
