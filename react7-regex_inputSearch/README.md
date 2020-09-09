@@ -2,7 +2,7 @@
 
 ### REGEX for beginners
 
-[<img src="./src/img/regex1.gif">](https://nadiamariduena.github.io/react-draganddrop1-dnd/)
+[<img src="./src/img/regex1.gif">](https://regexr.com/)
 
 <br>
 <br>
@@ -17,6 +17,12 @@
 
 A - Z rANGE. Matches a character in range "A" to "Z" (char code 65 to 90). case sensitive
 ```
+
+<br>
+
+<p>WRITE your REGEX here: </p>
+
+[<img src="./src/img/regular-expressions.jpg">](https://regex101.com/)
 
 <br>
 
