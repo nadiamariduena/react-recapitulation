@@ -11,7 +11,6 @@
 
 <p>Short for regular expression, a regex is a string of text that allows you to create patterns that help match, locate, and manage text. </p>
 
-
 ```javascript
 
 A - Z Range. Matches a character in range "A" to "Z" (char code 65 to 90). case sensitive
@@ -42,4 +41,3 @@ to search for an email address. Any email address, to be exact. A very similar r
 [<img src="./src/img/regular-expressions.jpg">](https://regex101.com/)
 
 <br>
-```
