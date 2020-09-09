@@ -26,5 +26,3 @@ A - Z rANGE. Matches a character in range "A" to "Z" (char code 65 to 90). case 
 
 <br>
 
-https://react-dnd.github.io/react-dnd/docs/overview - source!
-[dnd](https://react-dnd.github.io/react-dnd/docs/overview)
