@@ -11,11 +11,10 @@
 
 <p>Short for regular expression, a regex is a string of text that allows you to create patterns that help match, locate, and manage text. </p>
 
-<p>Short for regular expression, a regex is a string of text that allows you to create patterns that help match, locate, and manage text. </p>
 
 ```javascript
 
-A - Z rANGE. Matches a character in range "A" to "Z" (char code 65 to 90). case sensitive
+A - Z Range. Matches a character in range "A" to "Z" (char code 65 to 90). case sensitive
 ```
 
 <br>
